@@ -5,6 +5,23 @@ public class StudentClass {
     private String email;
     private String course;
 
+    public StudentClass() {
+        this.name = "";
+        this.email = "";
+        this.course = "";
+
+    }
+
+    public StudentClass(String name, String email, String course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
+    public StudentClass(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
